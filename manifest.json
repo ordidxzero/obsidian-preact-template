@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-preact-template",
+  "name": "Obsidian Preact Template",
+  "description": "Obsidian Preact Template",
+  "version": "1.0.0",
+  "author": "ordidxzero",
+  "authorUrl": "https://github.com/ordidxzero/",
+  "isDesktopOnly": true,
+  "minAppVersion": "0.10.8"
+}

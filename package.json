@@ -1,0 +1,40 @@
+{
+  "name": "obsidian-preact-template",
+  "version": "1.2.0",
+  "description": "한자를 정리하기 위한 플러그인입니다.",
+  "author": "ordidxzero",
+  "main": "main.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "tw": "tailwindcss -i tailwind.css -o styles.css --minify",
+    "dev": "esbuild src/index.ts --bundle --outfile=main.js --platform=node --external:obsidian --watch",
+    "build": "NODE_ENV=production yarn tw && esbuild src/index.ts --bundle --minify --outfile=main.js --platform=node --external:obsidian"
+  },
+  "dependencies": {
+    "htm": "^3.1.1",
+    "obsidian": "^1.2.5",
+    "preact": "^10.11.3",
+    "tslib": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "autoprefixer": "^10.4.13",
+    "esbuild": "^0.17.18",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard-with-typescript": "latest",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "latest",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.2.4",
+    "typescript": "*"
+  },
+  "packageManager": "yarn@3.5.0"
+}
