@@ -7,9 +7,9 @@ import DiceRoller from './ui/DiceRoller';
 
 const ICON_NAME = 'languages';
 
-const PLUGIN_TITLE = 'Hanjaa Block';
+const PLUGIN_TITLE = 'Plugin Title';
 
-const VIEW_TYPE = 'react-viewdsfkjhsldfhsajflajskdhflkj';
+const VIEW_TYPE = 'react-view';
 
 class MyReactView extends ItemView {
 
