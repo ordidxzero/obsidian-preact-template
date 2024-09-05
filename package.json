@@ -13,28 +13,28 @@
   },
   "dependencies": {
     "htm": "^3.1.1",
-    "obsidian": "^1.2.5",
-    "preact": "^10.11.3",
-    "tslib": "^2.4.1"
+    "obsidian": "^1.6.6",
+    "preact": "^10.23.2",
+    "tslib": "^2.7.0"
   },
   "devDependencies": {
-    "@types/eslint": "^8",
-    "@types/node": "^18.11.18",
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
-    "autoprefixer": "^10.4.13",
-    "esbuild": "^0.17.18",
-    "eslint": "^8.0.1",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-config-standard-with-typescript": "latest",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-n": "^15.0.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "latest",
-    "postcss": "^8.4.21",
-    "prettier": "^2.8.8",
-    "tailwindcss": "^3.2.4",
+    "@types/eslint": "^8.44.2",
+    "@types/node": "^22.5.4",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "autoprefixer": "^10.4.20",
+    "esbuild": "^0.23.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-n": "^17.10.2",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-promise": "^7.1.0",
+    "eslint-plugin-react": "^7.35.2",
+    "postcss": "^8.4.45",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.10",
     "typescript": "*"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@4.4.1"
 }
