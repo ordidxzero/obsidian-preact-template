@@ -1,6 +1,6 @@
 {
   "name": "obsidian-preact-template",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "Obsidian Plugin을 개발하기 위한 Preact Template입니다.",
   "author": "ordidxzero",
   "main": "main.js",
